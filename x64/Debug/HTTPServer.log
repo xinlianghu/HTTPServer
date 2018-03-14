@@ -1,0 +1,21 @@
+﻿生成启动时间为 2017/3/22 15:11:28。
+     1>项目“E:\visual studio 2013\Projects\HTTPServer\HTTPServer\HTTPServer.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt HTTPServer.cpp main.cpp Request.cpp Responce.cpp
+         HTTPServer.cpp
+         main.cpp
+         Request.cpp
+         Responce.cpp
+         正在生成代码...
+     1>e:\visual studio 2013\projects\httpserver\httpserver\httpserver.cpp(232): warning C4715: “HTTPServer::doGet”: 不是所有的控件路径都返回值
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\visual studio 2013\Projects\HTTPServer\x64\Debug\HTTPServer.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\visual studio 2013\Projects\HTTPServer\x64\Debug\HTTPServer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\visual studio 2013\Projects\HTTPServer\x64\Debug\HTTPServer.lib" /MACHINE:X64 x64\Debug\HTTPServer.obj
+         x64\Debug\main.obj
+         x64\Debug\Request.obj
+         x64\Debug\Responce.obj
+         HTTPServer.vcxproj -> E:\visual studio 2013\Projects\HTTPServer\x64\Debug\HTTPServer.exe
+     1>已完成生成项目“E:\visual studio 2013\Projects\HTTPServer\HTTPServer\HTTPServer.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.14
